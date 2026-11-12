@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# 运行期数据
+cache/
+thumbnails/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+
+# 模型权重（体积大，单独挂载或从 release 下载）
+models/
+*.onnx
+*.pt
+*.pth
+*.safetensors
+
+# 日志与临时文件
+logs/
+*.log
+tmp/
+.tmp/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 导出的 XMP 备份（用户数据，不入库）
+*.xmp.bak
